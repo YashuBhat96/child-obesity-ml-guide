@@ -28,7 +28,6 @@ No prior experience with machine learning is required, though some familiarity w
 | `xgb_model_with_bmi.pkl` | Trained model using baseline BMI |
 | `xgb_model_without_bmi.pkl` | Trained model using only behavioral and caregiver-report features |
 | `xgb_model_combined.pkl` | Final model using both baseline BMI and contextual features |
-| `shap_outputs/` | Visual outputs from SHAP model interpretation |
 | `README.md` | This file |
 
 ---
