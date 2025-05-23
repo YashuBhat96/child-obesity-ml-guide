@@ -14,6 +14,9 @@ It walks through a complete machine learning (ML) pipeline using synthetic data 
 
 No prior experience with machine learning is required, though some familiarity with Python or structured data will be helpful. This tutorial is designed to accompany the manuscript **“A Primer for Machine Learning Applications in Childhood Obesity”**, which provides additional guidance on model development choices.
 
+A [document](ML_childhood_obesity_tutorial.docx) for the tutorial is also available in the repository.
+
+
 ---
 
 ## 📚 What's in This Repository
