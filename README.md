@@ -25,7 +25,7 @@ A [document](ML_childhood_obesity_tutorial.docx) for the tutorial is also availa
 |-------------|-------------|
 | [ML_modeling_child_obesity.ipynb](ML_modeling_child_obesity.ipynb) | Main Jupyter notebook tutorial: full end-to-end ML pipeline |
 | [step1_merge_raw_sources.ipynb](step1_merge_raw_sources.ipynb) | Initial Dataset prep |
-| [ML_child_obesity_syn_data.xlsx](ML_child_obesity_syn_data.xlsx) | Input dataset used in tutorial (synthetic pediatric data) |
+| [ML_child_obesity_syn_data.csv](ML_child_obesity_syn_data.csv) | Input dataset used in tutorial (synthetic pediatric data) |
 | `xgb_model_with_bmi.pkl` | Trained model using baseline BMI |
 | `xgb_model_without_bmi.pkl` | Trained model using only behavioral and caregiver-report features |
 | `xgb_model_combined.pkl` | Final model using both baseline BMI and contextual features |
