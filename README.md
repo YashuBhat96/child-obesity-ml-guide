@@ -23,11 +23,9 @@ A [document](ML_childhood_obesity_tutorial.docx) for the tutorial is also availa
 
 | File/Folder | Description |
 |-------------|-------------|
-| [ML_modeling_childhood_obesity.ipynb](ML_modeling_childhood_obesity.ipynb) | Main Jupyter notebook tutorial: full end-to-end ML pipeline |
-| [step1_merge_raw_sources.ipynb](step1_merge_raw_sources.ipynb) | Main Jupyter notebook tutorial: full end-to-end ML pipeline |
-| [ML_childhood_syn_data.xlsx](ML_childhood_syn_data.xlsx) | Input dataset used in tutorial (synthetic pediatric data) |
-| [winsorized_dataset.xlsx](winsorized_dataset.xlsx) | Version of dataset after outlier handling |
-| [train_split_stratified.xlsx](train_split_stratified.xlsx) / [test_split_stratified.xlsx](test_split_stratified.xlsx) | Train and test split (stratified by sex) used in modeling, respectively |
+| [ML_modeling_child_obesity.ipynb](ML_modeling_child_obesity.ipynb) | Main Jupyter notebook tutorial: full end-to-end ML pipeline |
+| [step1_merge_raw_sources.ipynb](step1_merge_raw_sources.ipynb) | Initial Dataset prep |
+| [ML_child_obesity_syn_data.xlsx](ML_child_obesity_syn_data.xlsx) | Input dataset used in tutorial (synthetic pediatric data) |
 | `xgb_model_with_bmi.pkl` | Trained model using baseline BMI |
 | `xgb_model_without_bmi.pkl` | Trained model using only behavioral and caregiver-report features |
 | `xgb_model_combined.pkl` | Final model using both baseline BMI and contextual features |
@@ -40,16 +38,16 @@ A [document](ML_childhood_obesity_tutorial.docx) for the tutorial is also availa
 By working through this tutorial, you will learn how to:
 
 - Work with complex pediatric health data (including behavioral, psychological, and caregiver-report variables)
-- Handle structured missing data and non-random dropout
+- Handle structured missing data and dropout
 - Engineer developmentally meaningful features (e.g., portion response slopes)
 - Use stratified splitting and recursive feature selection
 - Train interpretable models using SHAP
 - Evaluate model performance across scenarios (clinical vs modifiable predictors)
 
-The tutorial demonstrates modeling under three use cases:
+The tutorial demonstrates modeling under two use cases:
 1. **BMI-Based Model** (high accuracy, low interpretability)
 2. **Behavioral-Only Model** (low accuracy, high interpretability)
-3. **Combined Model** (balanced)
+
 
 ---
 
@@ -67,7 +65,7 @@ pip install pandas numpy scikit-learn shap matplotlib seaborn openpyxl
 
 Start with [step1_merge_raw_sources.ipynb](step1_merge_raw_sources.ipynb) (optional – for those interested in how the dataset was constructed)
 
-Use [ML_modeling_childhood_obesity.ipynb](ML_modeling_childhood_obesity.ipynb) to follow the full ML pipeline
+Use [ML_modeling_child_obesity.ipynb](ML_modeling_child_obesity.ipynb) to follow the full ML pipeline
 (feature selection, model training and evaluation, post-hoc feature importance through SHAP plots)
 
 ### 3. Explore Outputs
